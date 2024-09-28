@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            background-color: #f9f3d7;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #dde1e7;
+            font-weight: bold;
+        }
+        td {
+            background-color: #fffce5;
+        }
+        tr:nth-child(even) td {
+            background-color: #f9f3d7;
+        }
+        .example {
+            color: blue;
+        }
+        .inline-style {
+            color: green;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        .italic {
+            font-style: italic;
+        }
+        .red {
+            color: red;
+        }
+        .emoji {
+            font-size: 1.2em;
+        }
+        .checkmark {
+            text-align: center;
+            font-weight: bold;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Name of the feature</th>
+            <th>Example</th>
+            <th>Default</th>
+        </tr>
+        <tr>
+            <td>Remove inline styles</td>
+            <td><span class="inline-style">You <span class="bold">should</span> never use inline styles!</span></td>
+            <td class="checkmark">✗</td>
+        </tr>
+        <tr>
+            <td>Remove classes and IDs</td>
+            <td>Use classes to <span class="bold">style</span> everything.</td>
+            <td class="checkmark">✗</td>
+        </tr>
+        <tr>
+            <td>Remove all tags</td>
+            <td>This leaves <span class="bold italic example">only the plain text</span>. <span class="emoji">😊</span></td>
+            <td class="checkmark">✗</td>
+        </tr>
+        <tr>
+            <td>Remove successive &nbsp;s</td>
+            <td>Never use non-breaking spaces&nbsp;&nbsp;&nbsp;to set margins.</td>
+            <td class="checkmark">✗</td>
+        </tr>
+        <tr>
+            <td>Remove empty tags</td>
+            <td>Empty tags should go!</td>
+            <td class="checkmark">✗</td>
+        </tr>
+        <tr>
+            <td>Remove tags with one &nbsp;</td>
+            <td>This makes no sense!</td>
+            <td class="checkmark">✗</td>
+        </tr>
+        <tr>
+            <td>Remove span tags</td>
+            <td>Span tags with <span style="color: green;">all styles</span></td>
+            <td class="checkmark">✗</td>
+        </tr>
+        <tr>
+            <td>Remove images</td>
+            <td>I am an image: <span class="emoji">🖼️</span></td>
+            <td class="checkmark">✗</td>
+        </tr>
+        <tr>
+            <td>Remove links</td>
+            <td><a href="#" style="color: blue;">This is a link.</a></td>
+            <td class="checkmark">✗</td>
+        </tr>
+        <tr>
+            <td>Remove tables</td>
+            <td>Takes everything out of the table.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Replace table tags with structured divs</td>
+            <td>This text is inside a table.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Remove comments</td>
+            <td>This is only visible in the source editor</td>
+            <td class="checkmark">✗</td>
+        </tr>
+        <tr>
+            <td>Encode special characters</td>
+            <td>❤️ ☺ ★ ✉ &lt; &gt;</td>
+            <td class="checkmark">✗</td>
+        </tr>
+        <tr>
+            <td>Set new lines and text indents</td>
+            <td>Organize the tags in a nice tree view.</td>
+            <td class="checkmark">✗</td>
+        </tr>
+    </table>
+</body>
+</html>
