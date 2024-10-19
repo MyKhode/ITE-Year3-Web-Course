@@ -1,0 +1,75 @@
+// Variables
+$primary-color: #2c3e50;
+$secondary-color: #18bc9c;
+$white: #ffffff;
+$font-stack: "Arial", sans-serif;
+
+// Base styles
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-stack;
+  background-color: #f8f9fa;
+  color: $primary-color;
+}
+
+// Navbar
+.navbar {
+  background-color: $primary-color;
+  padding: 1rem 0;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .navbar-brand a {
+    color: $white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .navbar-links a {
+    margin-left: 2rem;
+    color: $white;
+    text-decoration: none;
+    font-size: 1rem;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// Hero Section
+.hero {
+  background-color: $secondary-color;
+  padding: 4rem 0;
+  text-align: center;
+  .hero-content {
+    width: 80%;
+    margin: 0 auto;
+    h1 {
+      font-size: 2.5rem;
+      color: $white;
+      margin: 1rem 0;
+    }
+    p {
+      font-size: 1.2rem;
+      color: $white;
+      margin-top: 0.5rem;
+    }
+  }
+  .hero-image img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+}
