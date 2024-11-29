@@ -1,0 +1,26 @@
+{
+    "products": [
+      {
+        "image": "https://example.com/product1.jpg",
+        "sku": "ABC123",
+        "name": "Wireless Earbuds",
+        "price": 49.99,
+        "rating": 4.5
+      },
+      {
+        "image": "https://example.com/product2.jpg",
+        "sku": "XYZ456",
+        "name": "Smartphone",
+        "price": 799.99,
+        "rating": 4.8
+      },
+      {
+        "image": "https://example.com/product3.jpg",
+        "sku": "LMN789",
+        "name": "Gaming Mouse",
+        "price": 29.99,
+        "rating": 4.3
+      }
+    ]
+  }
+  
