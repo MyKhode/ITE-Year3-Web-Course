@@ -1,21 +1,21 @@
 {
     "products": [
       {
-        "image": "https://example.com/product1.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-NyH2fX8QjvRxlzVUSyI_upSDNsebDSvW3w&s",
         "sku": "ABC123",
         "name": "Wireless Earbuds",
         "price": 49.99,
         "rating": 4.5
       },
       {
-        "image": "https://example.com/product2.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCwjWoLI7ZLNU28c3sl7KYAj0k40w50-hfhw&s",
         "sku": "XYZ456",
         "name": "Smartphone",
         "price": 799.99,
         "rating": 4.8
       },
       {
-        "image": "https://example.com/product3.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQjwH4cXPRuOWKK1N87UxkiHy1RySxdJHJtQ&s",
         "sku": "LMN789",
         "name": "Gaming Mouse",
         "price": 29.99,
